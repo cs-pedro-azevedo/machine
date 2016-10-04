@@ -18,7 +18,6 @@
     # specific stuff than can be commented out:
     - include: tasks/atom.yml
     - include: tasks/chrome.yml
-    - include: tasks/dbeaver.yml
     - include: tasks/docker.yml
     - include: tasks/dropbox.yml
     - include: tasks/golang.yml
