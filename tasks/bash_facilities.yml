@@ -6,5 +6,5 @@
     update=yes
   become: false
 - name: Install bash_facilities
-  shell: /tmp/bash_facilities/installer.sh
+  shell: /tmp/bash_facilities/setup.sh
   become: false
