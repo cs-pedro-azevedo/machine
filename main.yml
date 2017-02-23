@@ -11,7 +11,7 @@
     - include: tasks/apt.yml
     - include: tasks/homebrew.yml
     - include: tasks/core.yml
-    - include: tasks/dotfiles.yml
+#    - include: tasks/dotfiles.yml
 
     # specific stuff than can be commented out:
     - include: tasks/atom.yml
