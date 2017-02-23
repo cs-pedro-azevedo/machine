@@ -18,3 +18,4 @@ out stuff you don't want, when you're done, simply run:
 $ ./setup.sh
 ```
 
+Enjoy! :)
