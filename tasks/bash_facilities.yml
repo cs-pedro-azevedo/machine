@@ -1,11 +1,10 @@
-- name: Download dotfiles
+- name: Download bash_facilities
   git:
-    repo=https://github.com/jonathanbeber/dotfiles.git
-    dest=~/.dotfiles
+    repo=https://github.com/pedrocesar-ti/bash_facilities.git
+    dest=/tmp/bash_facilities/
     version=master
     update=yes
   become: false
-- name: Set zsh as default shell
-  shell: chsh -s /bin/zsh
-  when: isnt_ci
+- name: Install bash_facilities
+  shell: /tmp/bash_facilities/installer.sh
   become: false

@@ -3,7 +3,6 @@
   when: is_ubuntu
   with_items:
     - build-essential
-    - smbclient
     - xsel
 
 - name: Install ubuntu-restricted-extras
@@ -35,7 +34,6 @@
     - htop
     - vim
     - wget
-    - zsh
     - ncdu
     - tree
 
