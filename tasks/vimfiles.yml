@@ -1,0 +1,10 @@
+- name: Download Vimfiles
+  git:
+    repo=https://github.com/pedrocesar-ti/vimfiles.git
+    dest=/tmp/vimfiles/
+    version=master
+    update=yes
+  become: false
+- name: Install Vimfiles
+  shell: /tmp/vimfiles/setup.sh
+  become: false
