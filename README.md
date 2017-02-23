@@ -1,6 +1,7 @@
 # machine
 
 Machine setup, powered by Ansible and forked from [caarlos0/machine](https://github.com/caarlos0/machine).
+Ajusted couple things to configurate all needed scenarios on my case.
 
 ## Usage:
 
