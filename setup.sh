@@ -35,4 +35,3 @@ fi
 python --version
 ansible --version
 ansible-playbook main.yml
-test -d ~/.dotfiles && cd $_ && ./script/bootstrap

@@ -39,10 +39,3 @@
     - ncdu
     - tree
 
-- name: Gets the zsh path
-  shell: which zsh
-  register: bin_zsh
-
-- name: Add homebrew zsh to /etc/shells
-  lineinfile: dest=/etc/shells line='{{ bin_zsh.stdout }}'
-  become: True

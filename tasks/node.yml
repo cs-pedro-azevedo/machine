@@ -11,3 +11,6 @@
 
 - name: Install Node
   package: name=nodejs
+- name: Install Nodenv
+  package: name=nodenv
+  when: is_osx
