@@ -1,6 +1,6 @@
 # machine
 
-Machine setup, powered by Ansible and forked from [caarlos0/machine]((https://github.com/caarlos0/machine).
+Machine setup, powered by Ansible and forked from [caarlos0/machine](https://github.com/caarlos0/machine).
 
 ## Usage:
 
