@@ -3,6 +3,7 @@
   when: is_ubuntu
   with_items:
     - build-essential
+    - python-pip
     - xsel
 
 - name: Install ubuntu-restricted-extras
