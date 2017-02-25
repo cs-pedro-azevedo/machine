@@ -11,7 +11,7 @@
     - include: tasks/apt.yml
     - include: tasks/homebrew.yml
     - include: tasks/core.yml
-    - include: tasks/bash_facilities.yml
+    - include: tasks/bash-facilities.yml
     - include: tasks/vimfiles.yml
 
     # specific stuff than can be commented out:

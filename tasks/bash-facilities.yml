@@ -1,0 +1,10 @@
+- name: Download bash_facilities
+  git:
+    repo=https://github.com/pedrocesar-ti/bash-facilities.git
+    dest=/tmp/bash-facilities/
+    version=master
+    update=yes
+  become: false
+- name: Install bash-facilities
+  shell: /tmp/bash-facilities/setup.sh
+  become: false
