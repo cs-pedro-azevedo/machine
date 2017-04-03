@@ -1,0 +1,9 @@
+---
+- name: Add DotNet brew repository
+  homebrew_tap:
+        name: caskroom/cask
+  when: is_osx
+
+- name: Install DotNet
+  homebrew_cask: name=dotnet
+  when: is_osx

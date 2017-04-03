@@ -18,8 +18,8 @@
     - include: tasks/atom.yml
     - include: tasks/awscli.yml
     - include: tasks/chrome.yml
-    - include: tasks/dbeaver.yml
     - include: tasks/docker.yml
+    - include: tasks/dotnet.yml
     - include: tasks/dropbox.yml
     - include: tasks/golang.yml
     - include: tasks/node.yml
